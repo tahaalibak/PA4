@@ -115,7 +115,7 @@ public class GameView  implements Callback{
 					(d.y + d.w / 2), targetPaint);
 		}
 		
-		c.drawText("["+Math.round(model.timeRemaining)+"] win="+model.wins+" lose="+model.losses,0,50,textPaint);
+		c.drawText("["+Math.round(model.timeRemaining)+"] w="+model.wins+" l="+model.losses+"   -   High Score: Taha [w=100 l=0]",0,50,textPaint);
 	}
 
 	/**
@@ -135,18 +135,18 @@ public class GameView  implements Callback{
 	 */
 	private void createPaints(){
 		backgroundPaint = new Paint();
-		backgroundPaint.setColor(Color.BLUE);
+		backgroundPaint.setColor(Color.BLACK);
 
 		diskPaint = new Paint();
-		diskPaint.setColor(Color.BLACK);
+		diskPaint.setColor(Color.WHITE);
 		diskPaint.setAntiAlias(true);
 
 		squarePaint = new Paint();
-		squarePaint.setColor(Color.WHITE);
+		squarePaint.setColor(Color.RED);
 		squarePaint.setAntiAlias(true);
 
 		targetPaint = new Paint();
-		targetPaint.setColor(Color.RED);
+		targetPaint.setColor(Color.BLUE);
 		targetPaint.setAntiAlias(true);
 		
 		textPaint = new Paint();

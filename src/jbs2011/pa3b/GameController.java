@@ -55,7 +55,7 @@ public class GameController implements OnTouchListener {
 	}
 	
 	/**
-	 * Convert from PointF p from View coordinats to Model Coordinates
+	 * Convert from PointF p from View coordinates to Model Coordinates
 	 * @param p
 	 * @return q
 	 */
@@ -66,7 +66,7 @@ public class GameController implements OnTouchListener {
 	
 	
 	/**
-	 * Convert PointF p from Model coordinats to View Coordinates
+	 * Convert PointF p from Model coordinates to View Coordinates
 	 * @param p
 	 * @return q
 	 */
@@ -151,7 +151,7 @@ public class GameController implements OnTouchListener {
 			if (currState == State.TOUCH_DISK) {
 				currDisk.move(firstX, firstY);
 			} else if (currState == State.TOUCH_SQUARE) {
-				currSquare.move(x, y);
+				//currSquare.move(x, y);
 			}
 			return true;
 		} else if (event.getAction() == MotionEvent.ACTION_UP) {

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Bonjour!</string>
+    <string name="app_name">PA3</string>
+    <string name="game_name">Le Jeu</string>
+    <string name="button1">JOUER</string>
+</resources>
